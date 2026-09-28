@@ -19,6 +19,17 @@
             "assets": [],
             "styles": ["src/styles.css"],
             "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
           }
         },
         "serve": {
@@ -32,5 +43,8 @@
       }
     }
   },
-  "cli": { "packageManager": "npm" }
+  "cli": {
+    "packageManager": "npm",
+    "analytics": false
+  }
 }

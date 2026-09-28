@@ -6,7 +6,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `
     <main class="workspace">
       <header class="topbar">
-        <div class="brand"><span class="brand-mark">▰</span><span>Dell <strong>AIOps</strong></span></div>
+        <div class="brand"><span class="brand-mark">▰</span><span>Metrics <strong>AIOps</strong></span></div>
         <div class="top-actions" aria-label="Dashboard actions">
           <button aria-label="Search">⌕</button>
           <button aria-label="Notifications">◈</button>
